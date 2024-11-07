@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  width: 360px;
+  height: 720px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  position: relative;
+}
+
+.header {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+h2 {
+  color: #000;
+}
+
+.busster {
+color: #008080;
+ font-weight: bold;
+}
+
+p {
+  color: #808080;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.big-button {
+  display: inline-flex;
+  width: 400px;
+  height: 80px;
+  border-radius: 0px;
+  text-decoration: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 30%;
+  height: 100%;
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.left .logo {
+  width: 30px; /* Adjust this size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-indent: 70px;
+  width: 80%;
+  height: 100%;
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.left {
+  background-color: #fff; /* Blue color */
+}
+
+.right {
+  background-color: #fff; /* Green color */
+}
+
